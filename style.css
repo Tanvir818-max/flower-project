@@ -67,7 +67,7 @@ body{
   height: 800px;
 }
 .featured-image-container{
-  border: 2px solid rebeccapurple;
+  /* border: 2px solid rebeccapurple; */
   width: 90%;
   height: 800px;
   margin: 0 auto;
@@ -76,7 +76,7 @@ body{
 .featured-title-container{
   width: 590px;
   height: 150px;
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,5 +97,73 @@ body{
   text-align: center
 }
 .featured-images{
-  diplay: flex;
+  display: flex;
+  gap: 20px;
+  /* border: 2px solid violet; */
+ }
+.first-image{
+  height: 470px;
+  width: 32%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color:rgba(167, 33, 98, 0.15);
+  border-radius: 50% 50% 0% 0%; 
+}
+.second-image{
+  height: 470px;
+  width: 32%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgb(218, 240, 241);
+  border-radius: 50% 50% 0% 0%;
+  
+}
+.third-image{
+  height: 470px;
+  width: 32%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgb(228, 236, 220);
+  border-radius: 50% 50% 0% 0%;
+ 
+}
+.caption{
+  display: flex;
+
+}
+.name-one{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(239, 87, 119,1.0);
+}
+.name-two{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(239, 87, 119,1.0);
+}
+.name-three{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(239, 87, 119,1.0);
 }
