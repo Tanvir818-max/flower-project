@@ -170,12 +170,13 @@ body{
   color: rgba(239, 87, 119,1.0);
 }
 .info{
- border: 2px solid rebeccapurple;
+ /* border: 2px solid rebeccapurple; */
+ border-radius: 10px;
  width: 90%;
  height: 320px;
  margin: 0 auto;
- margin-top: 140px;
- margin-top: 20px;
+ margin-top: 80px;
+ /* margin-top: 20px; */
  background-color: rgb(244, 244, 244); 
  display: flex;
  justify-content: space-evenly;
@@ -200,4 +201,65 @@ body{
   font-size: 15px;
   text-align: center;
   color: rgba(239, 87, 119,1.0);
+}
+
+.hot-deal{
+  height: 620px;
+  max-width: 1920px;
+  /* border: 2px solid palegreen; */
+  background-color: rgb(254, 246, 248);
+  margin-top: 80px;
+}
+.hot-deal-flower{
+  display: flex;
+  /* border: 2px solid rebeccapurple; */
+  width: 70%;
+  height: 620px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.sale{
+width: 50%;
+height: 228px;
+border-radius: 8px;
+/* border: 2px solid teal; */
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+.sale h3{
+  font-size: 30px;
+}
+.sale p{
+  font-size: 18px;
+  color: #817D7E;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.sale button{
+  width: 150px;
+  height: 60px;
+  background-color:#E55473;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+  /* margin-right: 100px; */
+  /* margin-left: auto; */
+
+}
+.sale h3 span{
+  color: #E55473;
+}
+.flower-vase{
+  height: 420px;
+  width: 50%
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
