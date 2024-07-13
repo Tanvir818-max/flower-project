@@ -100,6 +100,7 @@ body{
   display: flex;
   gap: 20px;
   /* border: 2px solid violet; */
+  margin-top: 80px;
  }
 .first-image{
   height: 470px;
@@ -111,6 +112,7 @@ body{
   margin: 0 auto;
   background-color:rgba(167, 33, 98, 0.15);
   border-radius: 50% 50% 0% 0%; 
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .second-image{
   height: 470px;
@@ -122,7 +124,7 @@ body{
   margin: 0 auto;
   background-color: rgb(218, 240, 241);
   border-radius: 50% 50% 0% 0%;
-  
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .third-image{
   height: 470px;
@@ -134,7 +136,7 @@ body{
   margin: 0 auto;
   background-color: rgb(228, 236, 220);
   border-radius: 50% 50% 0% 0%;
- 
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 .caption{
   display: flex;
@@ -164,6 +166,38 @@ body{
   margin: 0 auto;
   margin-top: 20px;
   font-size: 20px;
+  text-align: center;
+  color: rgba(239, 87, 119,1.0);
+}
+.info{
+ border: 2px solid rebeccapurple;
+ width: 90%;
+ height: 320px;
+ margin: 0 auto;
+ margin-top: 140px;
+ margin-top: 20px;
+ background-color: rgb(244, 244, 244); 
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.delivery, .quality{
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: -80px;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(239, 87, 119,1.0);
+}
+.service{
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: -20px;
+  font-size: 15px;
   text-align: center;
   color: rgba(239, 87, 119,1.0);
 }
