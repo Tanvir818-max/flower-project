@@ -263,3 +263,106 @@ margin: 0 auto;
   justify-content: center;
   align-items: center;
 }
+.photo-frame{
+  height: 620px;
+  max-width: 1920px;
+  /* border: 2px solid palegreen; */
+  /* background-color: rgb(254, 246, 248); */
+  margin-top: 80px;
+}
+.flower-photo{
+  width: 590px;
+  height: 130px;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  margin: 0 auto;
+  /* border: 2px solid aqua; */
+}
+.flower-photo h2{
+  text-align: center;
+  font-size: 30px;
+  color: #272727;
+}
+.flower-photo h2 span{
+  color:rgba(255, 56, 56,1.0);
+}
+.flower-photo p{
+  text-align: center;
+  font-size: 15px;
+  color: #7D7D7D;
+}
+.multi-flowers{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+.multi-flowers div img{
+  width: 340px;
+  height: 395px;
+  box-shadow: 0px 80px 50px -30px rgba(0, 0, 0, 0.15);
+ 
+}
+.latest-deal{
+  height: 449px;
+  max-width: 1440px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  background-image: url('./assets/images/latest-deals-bg.png');
+  background-repeat: no-repeat;
+  box-shadow: 25px 0 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+  
+}
+.mail{
+  width: 380px;
+  height: 110px;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+}
+.mail-subscribe{
+  /* margin-bottom: 100px; */
+}
+.mail h2{
+  font-size: 30px;
+  color: rgba(30, 39, 46,1.0);
+  text-align: center;
+ 
+}
+.mail p{
+  font-size: 18px;
+  text-align: center;
+  color: #808282;
+  margin-bottom: 100px;
+}
+.subscribe{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+ flex-direction: row;
+}
+.subscribe input{
+height: 64px;
+width: 700px;
+background-color: white;
+border-radius: 8px;
+font-size: 15px;
+margin-right: 20px;
+}
+.subscribe button{
+  height: 70px;
+  width: 150px;
+  border-radius: 8px;
+  background-color: #E55473;
+  font-size: 15px;
+  color: white;
+}
