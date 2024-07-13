@@ -366,3 +366,34 @@ margin-right: 20px;
   font-size: 15px;
   color: white;
 }
+.end{
+  max-width: 1920px;
+  height: 449px;
+  background-color: #111010;
+  margin-top:
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  box-shadow: 0 20px 10px -20px rgba(0,0,0,0.45) inset, 0 -20px 10px -20px rgba(0,0,0,0.45) inset, 20px 0 10px -20px rgba(0,0,0,0.45) inset;
+}
+.end h2{
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.end h2 span{
+  color: #E55473;
+}
+.conclution{
+  font-size: 20px;
+  color: #818181;
+  text-align: center;
+}
+.end p{
+  font-size: 10px;
+  color: rgba(210, 218, 226,1.0);
+  text-align: center;
+}
